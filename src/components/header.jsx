@@ -45,6 +45,9 @@ const Header = () => {
     }
 
     addBlog(blog);
+    setTitle('')
+    setDescription('')
+    setImageURL('')
     
 
     setIsOpen(false);
